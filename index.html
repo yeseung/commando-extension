@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warrior vs Zombies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-overlay">
+            <div id="stats">
+                <div id="health-container">
+                    <div id="health-bar"></div>
+                </div>
+                <div id="score">Score: 0</div>
+                <div id="level">Level: 1</div>
+            </div>
+        </div>
+        <div id="game-over" class="screen">
+            <h2>Game Over</h2>
+            <p>Score: <span id="final-score">0</span></p>
+            <button id="restartGame">Play Again</button>
+        </div>
+        <div id="victory" class="screen">
+            <h2>Victory!</h2>
+            <p>Congratulations! You've defeated the boss!</p>
+            <p>Final Score: <span id="victory-score">0</span></p>
+            <button id="restartGame">Play Again</button>
+        </div>
+    </div>
+    <div class="footer">
+        광고 :&nbsp;&nbsp;<a href="https://xn--4k0b139bupg.kr" target="_blank" rel="noreferrer">https://김타자.kr</a>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 

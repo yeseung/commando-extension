@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "슈팅 게임",
+    "description": "몰려오는 적을 처치하며 끝까지 생존하는 탑다운 슈팅 게임입니다.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": "icon32.png",
+            "128": "icon128.png"
+        }
+    },
+    "icons": {
+        "32": "icon32.png",
+        "128": "icon128.png"
+    }
+}
